@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    font-family: 'Lora', serif;
+    background: linear-gradient(#182538, #4B5C7B);
+    color: #ffffff;
+    padding: 30px;
+}
+h1 {
+    margin: 5px;
+}
+
+#name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+    font-weight: 500;
+}
+
+#bff-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #B92E3E;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#date {
+    margin: 0;
+    background: #B92E3E;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 500px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.png");
+    background-size: cover;
+    background-position: center;
+}
+#gift-img-protect {
+    height: 600px;
+}
+
+#gift-img-protect:hover {
+    background-image: url("images/protect.gif");
+}
+
+#gift-img-kiss {
+    width: 600px;
+}
+
+#gift-img-kiss:hover {
+    background-image: url("images/kiss.gif");
+}
+#gift-img-small {
+    height: 500px;
+}
+#gift-img-small:hover {
+    background-image: url("images/small.gif");
+}
+
+#gift-img-massage:hover {
+    background-image: url("images/massage.gif");
+}
+
+#gift-img-drink:hover {
+    background-image: url("images/drink.gif");
+}
+/*
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+*/
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+p {
+    width: 600px;
+    margin: 50px auto 10px;
+    text-align: right;
+    font-style: italic;
+}
